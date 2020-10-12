@@ -4,6 +4,9 @@ import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import AboutScreen from "./views/About/About";
 import ExperienceScreen from "./views/Experience/Experience";
 import ProjectsScreen from "./views/Projects/Projects";
+import EducationScreen from "./views/Education/Education";
+import Button from './Button';
+
 
 import Navbar from "./components/Navbar/Navbar";
 
@@ -25,8 +28,10 @@ function App() {
           <Route path="/experience" component={ExperienceScreen} />
           <Route path="/projects" component={ProjectsScreen} />
           <Route path={["/about", "/"]} component={AboutScreen} />
+          <Route path={["/education", "/"]} component={EducationScreen} />
         </Switch>
       </Router>
+      
     </div>
   );
 }

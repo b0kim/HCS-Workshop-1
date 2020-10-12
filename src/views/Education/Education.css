@@ -1,0 +1,26 @@
+.edu-background {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .edu-item {
+    display: flex;
+    flex: 1;
+  }
+  
+  .edu-item h1,
+  h2,
+  ul,
+  li {
+    margin: 4px 0;
+  }
+  
+  .edu-item p {
+    margin: 8px 0;
+  }
+  
+  .edu-picture {
+    width: 100%;
+    height: 100%;
+  }
+  
